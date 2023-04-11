@@ -7,6 +7,7 @@ body {
     display: flex;
     flex-direction: column;
     flex: auto;
+    font-family: "roboto", sans-serif;
 }
 
 .row1 {
@@ -18,45 +19,105 @@ body {
 
 .header {
     display: flex;
-    padding: 16px 64px;
-    gap: 32px;
+    padding: 16px 200px;
     justify-content: space-between;
+}
+.links {
+    display: flex;
+    gap: 32px;
 }
 .intro {
     display: flex;
     justify-content: space-between;
-    padding: 32px 200px;
+    padding: 32px 200px 100px 200px;
+    gap: 64px;
 }
-
-.row2 {
+.summary {
+    flex: 0 1 auto;
+    width: 600px;
+}
+.summary h1 {
+    font-size: 48px;
+}
+.placeholder {
+    background-color: #808081;
+    padding: 32px;
+    flex: auto;
     display: flex;
-    flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
 }
+.row2 {
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 32px;
+    padding: 32px;
+    flex: auto;
+}
+
 .illustrations {
     display: flex;
-    width: 500px;
-    height: 500px;
     gap: 32px;
 }
 .icon {
-    width: 200px;
-    height: 200px; 
+    width: 250px;
+    height: 250px; 
     border-style: solid;
     border-color: #3882f6;
     border-radius: 16px;
 }
+.illustrations p{
+    width: 250px;
+    text-align: center;
+    font-size: 16px;
+}
+
 .row3 {
     background-color: #e5e7eb	;
+    padding: 100px 400px;
+    font-style: italic;
+    font-size: 36px;
+    display: flex;
+    flex-direction: column;
 }
 
 .row4 {
     background-color: #3882f6;
+    align-self: center;
+    padding: 32px 100px;
+    margin: 100px;
+    display: flex;
+    gap:  64px;
+    color: white;
+}
+.source {
+    align-self: flex-end;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: bold;
 }
 
 a {
     color: white;
     text-decoration: none;
+}
+
+button {
+    background-color: #3882f6;
+    border-radius: 4px;
+    padding: 4px 32px;
+    color: white;
+    font-size: 16px;
+    font-weight:bold;
+}
+.row4 p{
+    margin: 0;
+    padding: 0;
+}
+.call {
+    font-weight: bold;
+    font-size: 20px;
 }
