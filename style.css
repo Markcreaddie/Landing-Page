@@ -121,3 +121,12 @@ button {
     font-weight: bold;
     font-size: 20px;
 }
+
+.copyright {
+    background-color: #1f2937;
+    display: flex;
+    padding: 32px;
+    color: white;
+    justify-content: center;
+    align-items: center;
+}
